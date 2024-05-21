@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530322388907",
+    "project_id": "majlisihrar",
+    "storage_bucket": "majlisihrar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530322388907:android:909a2bfd9475b6fcf384ee",
+        "android_client_info": {
+          "package_name": "com.majlis_ihrar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEmFghk7zKBsm1LB5Tc8jn0ogbPcvf0_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
