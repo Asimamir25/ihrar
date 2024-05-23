@@ -1,23 +1,17 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React, {useEffect} from 'react';
 import firestore from '@react-native-firebase/firestore';
-
+import Register from './src/auth/register/Register';
+import SplashScreen from 'react-native-splash-screen';
+import Navigation from './src/navigation/Navigation';
 const App = () => {
   useEffect(() => {
-    firestore()
-      .collection('Users')
-      .add({
-        name: 'asim',
-        age: 30,
-      })
-      .then(() => {
-        console.log('User added!');
-      }, []);
-  });
+    SplashScreen.hide();
+  }, []);
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <>
+      <Navigation />
+    </>
   );
 };
 
